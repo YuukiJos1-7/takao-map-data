@@ -114,7 +114,7 @@
     </Placemark>
     <Placemark>
       <name>ポイント 2</name>
-      <description><![CDATA[テストポイント2<br>このサイズは，大きすぎる]]></description>
+      <description><![CDATA[テストポイント2<br>このサイズは，大きすぎるかしら]]></description>
       <styleUrl>#icon-1499-FFD600</styleUrl>
       <Point>
         <coordinates>
