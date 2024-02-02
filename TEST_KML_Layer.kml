@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>無題のレイヤ</name>
+    <Style id="icon-1499-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1499-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1499-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1499-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1499-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1739-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1739-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-4701-0-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4.701</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>000051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-E65100-4701-0-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.0515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>000051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-E65100-4701-0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-4701-0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-4701-0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>ポイント 1</name>
+      <description><![CDATA[テストポイント<br>もう少し大きい方が見やすいかもしれない]]></description>
+      <styleUrl>#icon-1739-F57C00</styleUrl>
+      <Point>
+        <coordinates>
+          131.0468991,31.7200126,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ポイント 2</name>
+      <description><![CDATA[テストポイント2<br>このサイズは，大きすぎる]]></description>
+      <styleUrl>#icon-1499-FFD600</styleUrl>
+      <Point>
+        <coordinates>
+          131.0485615,31.7201757,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ポリゴン 3</name>
+      <description>テストポリゴン</description>
+      <styleUrl>#poly-E65100-4701-0</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              131.0473555,31.7189506,0
+              131.0475379,31.7215059,0
+              131.0465508,31.7218253,0
+              131.0459393,31.7219348,0
+              131.0453706,31.7221265,0
+              131.0444909,31.7207028,0
+              131.0434716,31.7212321,0
+              131.0427314,31.7202009,0
+              131.0430747,31.7200275,0
+              131.0441476,31.7197446,0
+              131.0473555,31.7189506,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
