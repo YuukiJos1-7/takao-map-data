@@ -104,7 +104,7 @@
     </StyleMap>
     <Placemark>
       <name>ポイント 1</name>
-      <description><![CDATA[テストポイント<br>もう少し大きい方が見やすいかもしれない]]></description>
+      <description><![CDATA[テストポイント<br>もう少し大きい方が見やすいかもしれないdesu]]></description>
       <styleUrl>#icon-1739-F57C00</styleUrl>
       <Point>
         <coordinates>
